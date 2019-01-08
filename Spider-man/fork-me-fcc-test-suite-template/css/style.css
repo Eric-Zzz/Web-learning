@@ -1,0 +1,46 @@
+ html,body{
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+  text-align:center;
+  min-width:260px;
+  color:#333;
+}
+#main{
+  margin:30px auto;
+  padding:15px;
+  border:0px solid;
+  border-radius:5px;
+  background:#eee;
+}
+img{
+  max-width: 100%; 
+  display: block; 
+  height: auto;
+  margin: auto;
+}
+#img-div{
+  margin:-5px;
+  margin-top:20px;
+  width:100%;
+  border:5px solid white;
+  background:white;
+}
+#img-caption{
+  margin:15px;
+}
+#title{
+  font-family:DINNextW01-CondensedMed, "Trebuchet MS", Helvetica, Arial, sans-serif;
+  text-align:center;
+}
+
+#link{
+  font-size:20px;
+  font-weight:bold;
+}
+ul{
+  max-width:550px;
+  margin:0 auto;
+  text-align:left;
+}
+li{
+  margin: 10px;
+}
