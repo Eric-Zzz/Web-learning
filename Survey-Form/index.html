@@ -30,27 +30,37 @@ For now, the test suite only works in Chrome! Please read the README below in th
   <h1 id="title">Survey Form</h1>
   </div>
   <div id="form-outer">
-  <p id="description">Let us know how we can improve this website.</p>
+  <p id="description">Let us know how you improve your program skills.</p>
     <div>
   <form id="survey-form">
-    <label id="name-label" class="labels">Name:</label>
-    <div id="rightTab">
-      <input  id="name" name="name" type="text" placeholder="Enter your name" class="input-field" required></div>
+    <div class="rowTab">
+    <div class="labels">
+    <label id="name-label" for="name">Name:</label>
+    </div>
+    <div class="rightTab">
+      <input autofocus id="name" name="name" type="text" placeholder="Enter your name" class="input-field" required>
+      </div>
+    </div>
+    <div class="rowTab">
     <div class="labels">
     <label id="email-label">Email:</label>
     </div>
-    <div id="rightTab">
+    <div class="rightTab">
     <input id="email" name="email" type="email" placeholder="Enter your email" class="input-field" required>
     </div>
-    <div id="labels">
+    </div>
+    <div class="rowTab">
+    <div class="labels">
       <label id="number-label">Age:</label></div>
-    <div id="rightTab">
+    <div class="rightTab">
     <input id="number" name="age" type="number" placeholder="Enter your age" min="0" max="120" class="input-field" required>
     </div>
+    </div>
+    <div class="rowTab">
       <div class="labels">
         <label for="currentPos">Which option best describes your current role?</label>
       </div>
-    <div id="rightTab">
+    <div class="rightTab">
     <select id="dropdown" class="dropdown">
       <option value="student">Student</option>
 <option value="job">Full Time Job</option>
@@ -59,30 +69,42 @@ For now, the test suite only works in Chrome! Please read the README below in th
       <option value="other">Order</option>
     </select>
     </div>
-          <div class="labels">
-        <label for="userranking">What do you think about this website?</label>
       </div>
-    <div id="rightTab">
+    <div class="rowTab">
+          <div class="labels">
+        <label for="userranking">What do you think about your program skills?</label>
+      </div>
+    <div class="rightTab">
       <ul style="list-style: none;">
    <li class="radio"> <input type="radio" value="great" name="feedback" class="userRatings">Great
       
     <li class="radio"><input type="radio" value="good" name="feedback" class="userRatings">Good
+      <li class="radio"><input type="radio" value="good" name="feedback" class="userRatings">Not Good
     </div>
-    <div class="labels">
-        <label for="preferences">Things that should be improved in the future<br>(Check all that apply): </label>
       </div>
-    <div id="rightTab">
+      <div class="rowTab">
+    <div class="labels">
+        <label for="languages">Which languages you can use?<br>(Check all that apply): </label>
+      </div>
+    <div class="rightTab">
       <ul>
-  <li class="checkbox"><input type="checkbox" name="perfer" value="Videos" class="userRatings">Videos
-    <li class="checkbox"> <input type="checkbox" name="perfer" value="Forum" class="userRatings">Forum
+  <li class="checkbox"><input type="checkbox" name="perfer" value="python" class="languages">Python
+    <li class="checkbox"> <input type="checkbox" name="perfer" value="c" class="languages">C
+      <li class="checkbox"> <input type="checkbox" name="perfer" value="c++" class="languages">C++
+        <li class="checkbox"> <input type="checkbox" name="perfer" value="c#" class="languages">C#
+          <li class="checkbox"> <input type="checkbox" name="perfer" value="Java" class="languages">Java
+            <li class="checkbox"> <input type="checkbox" name="perfer" value="javascript" class="languages">JavaScript
         
       </div>
+        </div>
+        <div class="rowTab">
           <div class="labels">
         <label for="comments">Any Comments or Suggestions?</label>
       </div>
-    <div id="rightTab">
+    <div class="rightTab">
   <textarea name="message" rows="10" cols="30" class="input-field">
 </textarea>
+          </div>
     </div>
     <input id="submit" type="submit" value="Submit">
     </form>
