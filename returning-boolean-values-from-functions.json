@@ -1,0 +1,1 @@
+{"index.js":"function isLess(a, b) {\n  // Fix this code\n\n  return a<b;\n}\n\n// Change these values to test\nisLess(10, 15);"}
