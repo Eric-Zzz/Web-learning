@@ -1,0 +1,1 @@
+{"index.js":"function checkEqual(a, b) {\n  return a ==b ? true:false\n}\n\ncheckEqual(1, 2);"}

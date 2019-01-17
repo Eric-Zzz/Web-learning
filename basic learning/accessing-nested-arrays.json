@@ -1,0 +1,1 @@
+{"index.js":"// Setup\nvar myPlants = [\n  { \n    type: \"flowers\",\n    list: [\n      \"rose\",\n      \"tulip\",\n      \"dandelion\"\n    ]\n  },\n  {\n    type: \"trees\",\n    list: [\n      \"fir\",\n      \"pine\",\n      \"birch\"\n    ]\n  }  \n];\n\n// Only change code below this line\n\nvar secondTree = myPlants[1].list[1]; // Change this line\n"}
