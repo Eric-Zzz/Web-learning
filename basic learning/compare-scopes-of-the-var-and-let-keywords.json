@@ -1,0 +1,1 @@
+{"index.js":"function checkScope() {\n\"use strict\";\n  let i = \"function scope\";\n  if (true) {\n    let i = \"block scope\";\n    console.log(\"Block scope i is: \", i);\n  }\n  console.log(\"Function scope i is: \", i);\n  return i;\n}"}
