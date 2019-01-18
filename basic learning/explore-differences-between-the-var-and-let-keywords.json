@@ -1,0 +1,1 @@
+{"index.js":"let catName;\nlet quote;\nfunction catTalk() {\n  \"use strict\";\n\n  catName = \"Oliver\";\n  quote = catName + \" says Meow!\";\n\n}\ncatTalk();"}
