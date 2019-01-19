@@ -1,0 +1,1 @@
+{"index.js":"const sum = (function() {\n  \"use strict\";\n  return function sum(...args) {\n    return args.reduce((a, b) => a + b, 0);\n  };\n})();\nconsole.log(sum(1, 2, 3)); // 6"}
