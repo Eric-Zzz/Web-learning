@@ -1,0 +1,1 @@
+{"index.js":"const AVG_TEMPERATURES = {\n  today: 77.5,\n  tomorrow: 79\n};\n\nfunction getTempOfTmrw(avgTemperatures) {\n  \"use strict\";\n  // change code below this line\n  const {tomorrow:tempOfTomorrow} = avgTemperatures; // change this line\n  // change code above this line\n  return tempOfTomorrow;\n}\n\nconsole.log(getTempOfTmrw(AVG_TEMPERATURES)); // should be 79"}
