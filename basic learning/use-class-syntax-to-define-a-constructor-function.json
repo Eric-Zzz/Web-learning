@@ -1,0 +1,1 @@
+{"index.js":"function makeClass() {\n  \"use strict\";\n  /* Alter code below this line */\n  class Vegetable{\n    constructor(name){\n      this.name=name;\n    }\n  }\n  /* Alter code above this line */\n  return Vegetable;\n}\nconst Vegetable = makeClass();\nconst carrot = new Vegetable('carrot');\nconsole.log(carrot.name); // => should be 'carrot'"}
