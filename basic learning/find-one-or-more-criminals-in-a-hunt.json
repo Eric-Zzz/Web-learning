@@ -1,0 +1,1 @@
+{"index.js":"// example crowd gathering\nlet crowd = 'P1P2P3P4P5P6CCCP7P8P9';\n\nlet reCriminals = /c+/gi; // Change this line\n\nlet matchedCriminals = crowd.match(reCriminals);\nconsole.log(matchedCriminals);"}

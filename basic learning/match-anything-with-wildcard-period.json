@@ -1,0 +1,1 @@
+{"index.js":"let exampleStr = \"Let's have fun with regular expressions!\";\nlet unRegex = /.un/; // Change this line\nlet result = unRegex.test(exampleStr);"}

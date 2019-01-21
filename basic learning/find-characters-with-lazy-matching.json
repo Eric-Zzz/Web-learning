@@ -1,0 +1,1 @@
+{"index.js":"let text = \"<h1>Winter is coming</h1>\";\nlet myRegex = /<.*?>/; // Change this line\nlet result = text.match(myRegex);"}

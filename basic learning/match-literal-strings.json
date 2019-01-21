@@ -1,0 +1,1 @@
+{"index.js":"let waldoIsHiding = \"Somewhere Waldo is hiding in this text.\";\nlet waldoRegex = /Waldo/; // Change this line\nlet result = waldoRegex.test(waldoIsHiding);"}

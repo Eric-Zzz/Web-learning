@@ -1,0 +1,1 @@
+{"index.js":"let quoteSample = \"The quick brown fox jumps over the lazy dog.\";\nlet alphabetRegex = /[a-z]/gi; // Change this line\nlet result = quoteSample.match(alphabetRegex); // Change this line"}

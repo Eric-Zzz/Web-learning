@@ -1,0 +1,1 @@
+{"index.js":"let extractStr = \"Extract the word 'coding' from this string.\";\nlet codingRegex = /coding/; // Change this line\nlet result = extractStr.match(codingRegex); // Change this line"}

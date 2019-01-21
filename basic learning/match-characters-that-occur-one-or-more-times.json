@@ -1,0 +1,1 @@
+{"index.js":"let difficultSpelling = \"Mississippi\";\nlet myRegex = /s+/gi; // Change this line\nlet result = difficultSpelling.match(myRegex);"}

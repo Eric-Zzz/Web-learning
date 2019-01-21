@@ -1,0 +1,1 @@
+{"index.js":"let petString = \"James has a pet cat.\";\nlet petRegex = /dog|cat|bird|fish/; // Change this line\nlet result = petRegex.test(petString);"}
