@@ -1,0 +1,1 @@
+{"index.js":"function reverseString(str) {\n  let arr=[...str];\n\n  let res=[];\n  for (let i=0;i<arr.length;i++){\n    res.unshift(arr[i]);\n  }\n\n  str=res.join(\"\");\n\n  return str;\n}\n\nreverseString(\"hello\");"}

@@ -1,0 +1,1 @@
+{"index.js":"function booWho(bool) {\n  // What is the new fad diet for ghost developers? The Boolean.\n  if (bool===true ||bool ===false){\n    return true;\n  }\n  return false;\n}\n\nbooWho(null);"}

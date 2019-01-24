@@ -1,0 +1,1 @@
+{"index.js":"function htmlColorNames(arr) {\n  // change code below this line\n  arr.splice(0,2,\"DarkSalmon\",\"BlanchedAlmond\");\n  // change code above this line\n  return arr;\n} \n \n// do not change code below this line\nconsole.log(htmlColorNames(['DarkGoldenRod', 'WhiteSmoke', 'LavenderBlush', 'PaleTurqoise', 'FireBrick']));"}

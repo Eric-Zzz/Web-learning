@@ -1,0 +1,1 @@
+{"index.js":"function getIndexToIns(arr, num) {\n  // Find my place in this sorted array.\n  arr=arr.sort(function(a,b){\n    return a-b;\n  });\n  console.log(arr);\n  for (let i =0;i<arr.length;i++){\n    if (num<=arr[i]){\n      console.log(i);\n      return i;\n    }\n  }\n  return arr.length;\n}\n\ngetIndexToIns([2, 5, 10], 15);"}

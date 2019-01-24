@@ -1,0 +1,1 @@
+{"index.js":"function spreadOut() {\n  let fragment = ['to', 'code'];\n  let sentence=[\"learning\",...fragment,\"is\",\"fun\"]; // change this line\n  return sentence;\n}\n\n// do not change code below this line\nconsole.log(spreadOut());"}

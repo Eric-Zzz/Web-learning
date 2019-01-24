@@ -1,0 +1,1 @@
+{"index.js":"function copyMachine(arr, num) {\n  let newArr = [];\n  while (num >= 1) {\n    // change code below this line\n    newArr.push([...arr]);\n    // change code above this line\n    num--;\n  }\n  return newArr;\n}\n\n// change code here to test different cases:\nconsole.log(copyMachine([true, false, true], 2));"}

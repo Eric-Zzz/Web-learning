@@ -1,0 +1,1 @@
+{"index.js":"function sumOfTen(arr) {\n  // change code below this line\n  arr.splice(4,2);\n  arr.splice(2,1);\n  arr.splice(0,1);\n  // arr.splice(2,1);\n  \n  // change code above this line\n  return arr.reduce((a, b) => a + b);\n}\n\n// do not change code below this line\nconsole.log(sumOfTen([2, 5, 1, 5, 2, 1]));"}
