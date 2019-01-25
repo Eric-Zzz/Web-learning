@@ -1,0 +1,1 @@
+{"index.js":"function Dog(name) {\n  this.name = name;\n}\n\nDog.prototype.numLegs = 4;\n\nlet beagle = new Dog(\"Snoopy\");\n\nlet ownProps = [];\nlet prototypeProps = [];\n\n// Add your code below this line \n\nfor(let pro in beagle){\n  if(beagle.hasOwnProperty(pro)){\n    ownProps.push(pro);\n  }else{\n    prototypeProps.push(pro);\n  }\n}\n"}
