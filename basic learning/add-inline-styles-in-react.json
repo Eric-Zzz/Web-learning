@@ -1,0 +1,1 @@
+{"index.jsx":"\nconst styles ={\n  color:\"purple\",\n  fontSize:40,\n  border:\"2px solid purple\"\n}\n// change code above this line\nclass Colorful extends React.Component {\n  render() {\n    // change code below this line\n    return (\n      <div style={styles}>Style Me!</div>\n    );\n    // change code above this line\n  }\n};\n"}
